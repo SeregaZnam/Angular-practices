@@ -3,6 +3,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "typeRoots": ["types"],
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
