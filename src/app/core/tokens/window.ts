@@ -4,6 +4,14 @@ import { DOCUMENT } from '@angular/common';
 export const WINDOW = new InjectionToken<Window>(
   'An abstraction over global window object',
   {
-    factory: () => inject(DOCUMENT).defaultView,
+    factory: () => {
+      const { defaultView } = inject(DOCUMENT);
+
+      if (!defaultView) {
+        throw new Error('Window is not available');
+      }
+
+      return defaultView;
+    },
   }
 );

@@ -45,8 +45,7 @@ export class ResizeObserverDirective {
   readonly waResizeObserver: Observable<ResizeObserverEntry[]>;
 
   constructor(
-    @Inject(ResizeObserverService)
-    entries$: Observable<ResizeObserverEntry[]>,
+    @Inject(ResizeObserverService) entries$: Observable<ResizeObserverEntry[]>,
     @Attribute('waResizeBox') box: ResizeObserverOptions['box']
   ) {
     this.waResizeObserver = entries$;

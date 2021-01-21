@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, Inject } from '@angular/core';
-import { RESIZE_OBSERVER_SUPPORT } from '../core/resize-onservable/tokens/support';
+import { RESIZE_OBSERVER_SUPPORT } from './core/resize-observer/tokens/support';
 
 @Component({
   selector: 'app-root',
