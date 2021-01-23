@@ -7,6 +7,7 @@ import { ResizeObserverModule } from './core/resize-observer/module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MutationObserverModule } from './core/mutation-observer/module';
 import { MutationExampleComponent } from './mutation-example/mutation-example.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [AppComponent, MutationExampleComponent],
@@ -17,6 +18,7 @@ import { MutationExampleComponent } from './mutation-example/mutation-example.co
     ResizeObserverModule,
     ReactiveFormsModule,
     MutationObserverModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
