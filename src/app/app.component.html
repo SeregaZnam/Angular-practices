@@ -1,3 +1,5 @@
+<router-outlet></router-outlet>
+
 <section *ngIf="support; else not" class="wrapper">
   <h1
     class="element"
@@ -24,5 +26,3 @@
 <ng-template #not>
   Your browser does not support Resize Observer API
 </ng-template>
-
-<mutation-example></mutation-example>

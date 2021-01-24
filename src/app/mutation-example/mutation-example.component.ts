@@ -1,7 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  // tslint:disable-next-line:component-selector
   selector: 'mutation-example',
   templateUrl: './mutation-example.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
