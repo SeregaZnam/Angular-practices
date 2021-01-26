@@ -11,6 +11,7 @@ export class AppComponent {
   title = 'angular-practices';
   ratio = 0;
   widthPercent = 50;
+  numbers = [1, 2, 3];
 
   constructor(@Inject(RESIZE_OBSERVER_SUPPORT) readonly support: boolean) {}
 

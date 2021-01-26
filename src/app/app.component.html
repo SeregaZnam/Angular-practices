@@ -26,3 +26,17 @@
 <ng-template #not>
   Your browser does not support Resize Observer API
 </ng-template>
+
+
+<!-- appNgLoop Directive -->
+
+<div style="text-align: center">
+  <h1>
+    Welcome to {{title}}!
+  </h1>
+</div>
+
+<div *appNgLoop="let nr of numbers; index as i">
+  {{nr}} - Foo
+  Index: {{i}}
+</div>

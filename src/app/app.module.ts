@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { ResizeObserverModule } from './core/resize-observer/module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NgLoopDirective } from './core/directives/ng-loop/ng-loop.directive';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, NgLoopDirective],
   imports: [
     BrowserModule,
     FormsModule,
