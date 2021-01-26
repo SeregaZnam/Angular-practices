@@ -12,7 +12,7 @@ import { AlertComponent } from './alert.component';
 @Component({
   selector: 'dynamic-example-comp',
   template: `
-    <template #alertContainer></template>
+    <ng-template #alertContainer></ng-template>
     <button (click)="createComponent('success')">Create success alert</button>
     <button (click)="createComponent('danger')">Create danger alert</button>
   `,
