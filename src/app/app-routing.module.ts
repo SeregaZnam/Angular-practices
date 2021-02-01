@@ -14,6 +14,13 @@ const routes: Routes = [
     loadChildren: () =>
       import('./mutation-example/module').then((m) => m.MutationExampleModule),
   },
+  {
+    path: 'ng-component-outlet-example',
+    loadChildren: () =>
+      import('./ng-component-outlet-example/module').then(
+        (m) => m.NgComponentOutletExampleModule
+      ),
+  },
 ];
 
 @NgModule({
