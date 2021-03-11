@@ -1,4 +1,3 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -7,6 +6,8 @@ import { ResizeObserverModule } from './core/resize-observer/module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgLoopDirective } from './core/directives/ng-loop/ng-loop.directive';
+import { ListModule } from './dependency-injection-explained/module';
+import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
   declarations: [AppComponent, NgLoopDirective],
