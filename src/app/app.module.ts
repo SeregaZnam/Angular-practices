@@ -8,6 +8,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgLoopDirective } from './core/directives/ng-loop/ng-loop.directive';
 import { ListModule } from './dependency-injection-explained/module';
 import { BrowserModule } from '@angular/platform-browser';
+import { ForDirectiveModule } from './for-directive/module';
 
 @NgModule({
   declarations: [AppComponent, NgLoopDirective],
@@ -18,6 +19,7 @@ import { BrowserModule } from '@angular/platform-browser';
     ResizeObserverModule,
     ReactiveFormsModule,
     FontAwesomeModule,
+    ForDirectiveModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

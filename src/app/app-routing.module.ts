@@ -40,6 +40,11 @@ const routes: Routes = [
         (m) => m.ListModule
       ),
   },
+  {
+    path: 'for-directive',
+    loadChildren: () =>
+      import('./for-directive/module').then((m) => m.ForDirectiveModule),
+  },
 ];
 
 @NgModule({
